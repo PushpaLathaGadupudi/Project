@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOGO Offer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="bogo-container">
+  <h2>YAY! It's BOGO</h2>
+  <form>
+    <!-- Option 1 -->
+    <label class="option-container">
+      <div class="option-header">
+        <div class="option-label">
+          <input type="radio" name="bogo-option" value="1" onclick="expandOption('option1')">
+          1 Unit <span class="discount">10% Off</span><br>Standard Price<br>
+        </div>
+        <div class="price">
+          $10.00 USD<br>
+          <span class="original-price">$24.00 USD</span>
+        </div>
+      </div>
+    </label>
+    <div id="option1" class="expandable-option">
+      <p>Size&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Colour</p>
+        <div class="select-group">
+          <label>#1</label>
+          <select class="size-select">
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+          </select>
+          <select class="color-select">
+            <option value="Black">Black</option>
+            <option value="White">White</option>
+          </select>
+        </div>
+        <div class="select-group">
+          <label>#2</label>
+          <select class="size-select">
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+          </select>
+          <select class="color-select">
+            <option value="Black">Black</option>
+            <option value="White">White</option>
+          </select>
+        </div>
+      </div>
+    <!-- Option 2 -->
+    <label class="option-container">
+      <div class="option-header most-popular">
+        <div class="option-label">
+          <input type="radio" name="bogo-option" value="2" onclick="expandOption('option2')">
+          2 Unit<span class="discount">20% Off</span>
+        </div>
+        <div class="price">
+          $18.00 USD<br>
+          <span class="original-price">$24.00 USD</span>
+        </div>
+      </div>
+      <span class="tag">MOST POPULAR</span>
+    </label>
+    <div id="option2" class="expandable-option">
+      <p>Size&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Colour</p>
+      <div class="select-group">
+        <label>#1</label>
+        <select class="size-select">
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+        </select>
+        <select class="color-select">
+          <option value="Black">Black</option>
+          <option value="White">White</option>
+        </select>
+      </div>
+      <div class="select-group">
+        <label>#2</label>
+        <select class="size-select">
+          <option value="S">S</option>
+          <option value="M">M</option>
+          <option value="L">L</option>
+        </select>
+        <select class="color-select">
+          <option value="Black">Black</option>
+          <option value="White">White</option>
+        </select>
+      </div>
+    </div>
+    <!-- Option 3 -->
+    <label class="option-container">
+      <div class="option-header">
+        <div class="option-label">
+          <input type="radio" name="bogo-option" value="3" onclick="expandOption('option3')">
+          3 Unit<span class="discount">30% Off</span>
+        </div>
+        <div class="price">
+          $24.00 USD<br>
+          <span class="original-price">$24.00 USD</span>
+        </div>
+      </div>
+    </label>
+    <div id="option3" class="expandable-option">
+      <p>Size&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Colour</p>
+        <div class="select-group">
+          <label>#1</label>
+          <select class="size-select">
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+          </select>
+          <select class="color-select">
+            <option value="Black">Black</option>
+            <option value="White">White</option>
+          </select>
+        </div>
+        <div class="select-group">
+          <label>#2</label>
+          <select class="size-select">
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+          </select>
+          <select class="color-select">
+            <option value="Black">Black</option>
+            <option value="White">White</option>
+          </select>
+        </div>
+      </div>    
+    <div class="total-section">
+      <span>Free Delivery</span>
+      <span class="total-price">Total : $18.00 USD</span>
+    </div>
+    <button type="button" class="add-to-cart">+ Add to Cart</button>
+  </form>
+  <div class="text">@Powered by Pumper</div>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
